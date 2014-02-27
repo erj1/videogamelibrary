@@ -1,0 +1,363 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"array_c",
+				"array_combine"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fi",
+				"fileType"
+			],
+			[
+				"ga",
+				"gameTitle"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"password_",
+				"oci_password_change"
+			],
+			[
+				"Dashboard",
+				"DashboardController"
+			],
+			[
+				"ass",
+				"associateArtist"
+			],
+			[
+				"is_in",
+				"is_integer"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"Admin",
+				"AdminArtistController"
+			],
+			[
+				"sr",
+				"script"
+			],
+			[
+				"lin",
+				"letter-spacing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/game/index.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/template/guest/base.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/public/css/application.css",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/user/edit.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/composer.json",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/controllers/UserController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/routes.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/controllers/BaseController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/migrations/2014_02_24_121738_create_users.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/helpers/date_helpers.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/models/User.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/models/Game.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/game/show.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/controllers/LoginController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/tests/models/UserTest.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/config/testing/database.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/testing.sqlite",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/template/guest/full.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/login/index.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/login/login.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/page/about.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/controllers/GameController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/platform/index.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/controllers/PlatformController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/models/Platform.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/platform/show.blade.php",
+		"/home/eric/Desktop/designmodo-flat-ui/Flat-UI-master/template.html",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/models/Esrb.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/tests/models/GameTest.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/tests/models/EsrbTest.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/seeds/GamesTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/tests/TestCase.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/migrations/2014_02_24_123006_create_platforms.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/seeds/EsrbsTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/seeds/GameUserTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/seeds/PlatformsTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/seeds/DatabaseSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/seeds/UsersTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/migrations/2014_02_24_124502_create_game_user.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/migrations/2014_02_24_123526_create_games.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/database/migrations/2014_02_24_123315_create_esrbs.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/config/local/database.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/bootstrap/start.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/.gitignore",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/config/app.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Artist/Admin/create.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/template/admin/main.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/template/admin/sidebar_nav.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/composer.json",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/helpers/uri_helper.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/template/admin/sidebar-nav.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_102702_create_artists_table.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Artist/Admin/index.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/public/css/admin.css",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Artist/Admin/delete.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Artist/Admin/edit.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Dashboard/index.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Repository/EloquentCustomForm.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Repository/EloquentCustomField.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/controllers/CustomFieldsController.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/routes.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/template/admin.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/controllers/RemindersController.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Access/login.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Access/Password/reset.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/storage/logs/laravel.log",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/template/guest.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Access/Password/remind.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/controllers/AccessController.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Service/Access.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/config/local/mail.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Service/Authentication.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/seeds/UserTableSeeder.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/seeds/DatabaseSeeder.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Access/Password",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/config/auth.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_18_133700_create_users_table.php",
+		"/home/eric/Desktop/html5-boilerplate-4.3.0/index.html",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/public/style/admin/main.css",
+		"/home/eric/.cache/.fr-e0IWTg/html5-boilerplate-4.3.0/.gitignore",
+		"/home/eric/.cache/.fr-Qbh1J8/html5-boilerplate-4.3.0/.gitattributes",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_103717_create_artworks_table.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/views/Artwork/create.blade.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/controllers/AdminArtworkController.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Repository/RepositoryServiceProvider.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Repository/EloquentArtist.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Repository/EloquentArtwork.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/Artist.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/controllers/AdminArtistController.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/controllers/DashboardController.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/filters.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/config/app.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Repository/EloquentClient.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/Client.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2013_12_31_111158_create_clients.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/models/Country.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/User.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/CustomField.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/CustomForm.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/ArtworkImage.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/Artwork.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/CustomForms.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/seeds/CountriesTableSeeder.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_105307_create_custom_fields_table.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_105120_create_custom_forms_table.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_104228_create_artwork_images_table.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2013_12_31_120526_create_countries.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/seeds/ClientTableSeeder.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/config/local/database.php",
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/bootstrap/start.php",
+		"/var/www/artgallery/app/views/layouts/admin.blade.php",
+		"/home/eric/Documents/ArtGalleries/UseCases/ArtistUsesCases.txt",
+		"/var/www/artgallery/app/views/adminartist/index.blade.php",
+		"/var/www/artgallery/app/controllers/AdminArtistController.php",
+		"/var/www/artgallery/app/database/seeds/ClientTableSeeder.php",
+		"/var/www/artgallery/app/tests/DowRidge/Repository/ClientRepositoryTest.php",
+		"/var/www/artgallery/app/tests/DbTestCase.php",
+		"/var/www/artgallery/app/config/testing/database.php",
+		"/var/www/artgallery/app/database/migrations/2013_11_05_115612_create_clients_table.php",
+		"/var/www/artgallery/app/DowRidge/Repository/ClientRepository.php",
+		"/var/www/artgallery/composer.json",
+		"/var/www/artgallery/app/config/database.php",
+		"/var/www/artgallery/app/DowRidge/Repository/ArtistRepository.php",
+		"/var/www/artgallery/app/database/seeds/ArtistsTableSeeder.php",
+		"/var/www/artgallery/app/database/migrations/2013_11_04_112355_create_artist.php",
+		"/var/www/artgallery/app/models/Artwork.php"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "VideoGameLibrary.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"304",
+				"system/logs/log-2013-04-01.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

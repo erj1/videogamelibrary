@@ -21,7 +21,7 @@ class CreatePlatforms extends Migration {
 			$table->string('name');
 
 			// Alias
-			$table->string('alias', 16)->nullable();
+			$table->string('alias', 16)->unique();
 
 			// Created At / Updated At
 			$table->timestamps();

@@ -20,23 +20,8 @@ class CreateUsers extends Migration {
 			// Email Address
 			$table->string('email')->unique();
 
-			// Username
-			$table->string('username', 32)->unique();
-
 			// Password
 			$table->string('password');
-
-			// First Name
-			$table->string('first_name')->nullable();
-
-			// Last Name
-			$table->string('last_name')->nullable();
-
-			// Birthday
-			$table->date('birthday')->nullable();
-
-			// Is Admin?
-			$table->boolean('is_admin')->default(false);
 
 			// Created At / Updated At
 			$table->timestamps();

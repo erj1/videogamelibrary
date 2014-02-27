@@ -29,6 +29,9 @@ class CreateGames extends Migration {
 			// Image Location
 			$table->string('image')->nullable();
 
+			// User Game Rating
+			$table->tinyInteger('rating')->unsigned()->nullable();
+
 			// Created At / Updated At
 			$table->timestamps();
 		});

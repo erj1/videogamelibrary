@@ -56,7 +56,27 @@ class AdminGameController extends BaseController
 			return Redirect::back()->withErrors($validator)->withInput();
 		}
 
-		dd(Input::all());
+		$platform = Platform::find(Input::get('platform'));
+
+		$file = Input::file('image');
+
+		$imageName = Game::generateImageName(
+			$platform->alias,
+			Input::get('name'),
+			$file->guessExtension()
+		);
+
+		$game = Game::create([
+			'platform_id' => $platform->id,
+			'esrb_id'     => Input::get('esrb'),
+			'name'        => Input::get('name'),
+			'rating'      => Input::get('rating'),
+			'image'       => $imageName
+		]);
+
+		$file->move(public_path() . Game::$path, $imageName);
+		
+		return Redirect::action('AdminGameController@index');
 	}
 
 	/**
@@ -78,7 +98,21 @@ class AdminGameController extends BaseController
 	 */
 	public function edit($id)
 	{
-		//
+		// get the available platforms
+		$platforms = Platform::orderBy('name', 'asc')->get()->lists('name', 'id');
+
+		// get the available ratings
+		$esrbs = Esrb::all()->lists('name', 'id');
+
+		// get the game
+		$game = Game::find($id);
+
+		return View::make('game.admin.edit', [
+			'platforms' => $platforms,
+			'esrbs'     => $esrbs,
+			'rateRange' => Game::$ratingRange,
+			'game'      => $game
+		]);
 	}
 
 	/**

@@ -18,7 +18,7 @@ class Game extends Eloquent
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['platform_id', 'esrb_id', 'name', 'image'];
+	protected $fillable = ['platform_id', 'esrb_id', 'name', 'rating', 'image'];
 
 	/**
 	 * Rating Range

@@ -10,3 +10,7 @@ Thumbs.db
 app/config/local
 *.sublime-project
 *.sublime*
+
+# ignore the video game images
+public/images/games/*
+!public/images/games/default.jpg

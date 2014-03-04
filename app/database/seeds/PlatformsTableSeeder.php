@@ -13,14 +13,14 @@ class PlatformsTableSeeder extends Seeder {
 			[
 				'id'         => 1,
 				'name'       => 'Nintendo Wii',
-				'alias'      => 'wii',
+				'alias'      => 'Wii',
 				'created_at' => Carbon::now(),
 				'updated_at' => Carbon::now()
 			],
 			[
 				'id'         => 2,
 				'name'       => 'Sony Playstation 2',
-				'alias'      => 'ps2',
+				'alias'      => 'PS2',
 				'created_at' => Carbon::now(),
 				'updated_at' => Carbon::now()
 			]

@@ -57,38 +57,4 @@ class User extends Eloquent implements UserInterface, RemindableInterface
 	{
 		return $this->email;
 	}
-
-	/**
-	 * Games
-	 *
-	 * Provides a collection of games that are owned by this user
-	 *
-	 * @return Collection
-	 */
-	public function games()
-	{
-		return $this->belongsToMany('Game')->withPivot('rating')->withTimestamps();
-	}
-
-	/**
-	 * Is This User An Administrator
-	 *
-	 * A simple way to determine if a user has administrative privileges or not.
-	 *
-	 * @return boolean
-	 */
-	public function isAdmin()
-	{
-		return ($this->is_admin === 1);
-	}
-
-	public function getDates()
-	{
-		$dates = parent::getDates();
-
-		$dates[] = 'birthday';
-
-		return $dates;
-	}
-
 }

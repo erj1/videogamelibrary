@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"rat",
+				"ratingRange"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
 				"max",
-				"max-height"
+				"max-width"
+			],
+			[
+				"padding",
+				"padding-bottom"
 			],
 			[
 				"array_c",
@@ -67,6 +79,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/controllers/AdminGameController.php",
+			"settings":
+			{
+				"buffer_size": 1836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/migrations/2014_02_24_123526_create_games.php",
+			"settings":
+			{
+				"buffer_size": 822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/game/admin/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 2171,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -112,6 +148,38 @@
 	},
 	"file_history":
 	[
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/template/navigation.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/public/css/application.css",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/game/admin/index.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/game/admin/create.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/migrations/2014_02_24_123526_create_games.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/routes.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/controllers/AdminGameController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/models/Game.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/game/show.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/controllers/UserController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/user/edit.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/controllers/LoginController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/login/index.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/template/guest/base.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/views/game/index.blade.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/controllers/GameController.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/tests/models/UserTest.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/seeds/PlatformsTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/models/Platform.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/models/User.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/seeds/UsersTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/seeds/DatabaseSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/seeds/GamesTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/seeds/GameUserTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/seeds/EsrbsTableSeeder.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/migrations/2014_02_24_123006_create_platforms.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/migrations/2014_02_24_121738_create_users.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/migrations/2014_02_24_124502_create_game_user.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/.gitignore",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/bootstrap/start.php",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/database/local.sqlite",
+		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/projectSimple/app/config/local/database.php",
 		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/game/index.blade.php",
 		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/app/views/template/guest/base.blade.php",
 		"/home/eric/Documents/LaravelPresentations/IndyDev/Laravel/class03/project/laravel/public/css/application.css",
@@ -207,39 +275,7 @@
 		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/filters.php",
 		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/config/app.php",
 		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Repository/EloquentClient.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/Client.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2013_12_31_111158_create_clients.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/models/Country.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/User.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/CustomField.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/CustomForm.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/ArtworkImage.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/Artwork.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/CustomForms.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/seeds/CountriesTableSeeder.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_105307_create_custom_fields_table.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_105120_create_custom_forms_table.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2014_01_14_104228_create_artwork_images_table.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/migrations/2013_12_31_120526_create_countries.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/database/seeds/ClientTableSeeder.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/config/local/database.php",
-		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/bootstrap/start.php",
-		"/var/www/artgallery/app/views/layouts/admin.blade.php",
-		"/home/eric/Documents/ArtGalleries/UseCases/ArtistUsesCases.txt",
-		"/var/www/artgallery/app/views/adminartist/index.blade.php",
-		"/var/www/artgallery/app/controllers/AdminArtistController.php",
-		"/var/www/artgallery/app/database/seeds/ClientTableSeeder.php",
-		"/var/www/artgallery/app/tests/DowRidge/Repository/ClientRepositoryTest.php",
-		"/var/www/artgallery/app/tests/DbTestCase.php",
-		"/var/www/artgallery/app/config/testing/database.php",
-		"/var/www/artgallery/app/database/migrations/2013_11_05_115612_create_clients_table.php",
-		"/var/www/artgallery/app/DowRidge/Repository/ClientRepository.php",
-		"/var/www/artgallery/composer.json",
-		"/var/www/artgallery/app/config/database.php",
-		"/var/www/artgallery/app/DowRidge/Repository/ArtistRepository.php",
-		"/var/www/artgallery/app/database/seeds/ArtistsTableSeeder.php",
-		"/var/www/artgallery/app/database/migrations/2013_11_04_112355_create_artist.php",
-		"/var/www/artgallery/app/models/Artwork.php"
+		"/home/eric/Documents/ArtGalleries/Project/ArtDealRx/app/DowRidge/Model/Client.php"
 	],
 	"find":
 	{
@@ -274,8 +310,96 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/AdminGameController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1077,
+								1077
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/database/migrations/2014_02_24_123526_create_games.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/game/admin/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

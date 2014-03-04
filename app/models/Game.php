@@ -21,6 +21,13 @@ class Game extends Eloquent
 	protected $fillable = ['platform_id', 'esrb_id', 'name', 'image'];
 
 	/**
+	 * Rating Range
+	 *
+	 * @array
+	 */
+	static public $ratingRange = [1, 2, 3, 4, 5];
+
+	/**
 	 * ESRB
 	 *
 	 * Provides the ESRB rating for this game
@@ -56,18 +63,6 @@ class Game extends Eloquent
 		return $this->belongsTo('Platform');
 	}
 
-	/**
-	 * Users
-	 *
-	 * Provides a collection of users who own this game.
-	 *
-	 * @return Collection
-	 */
-	public function users()
-	{
-		return $this->belongsToMany('User')->withPivot('rating')->withTimestamps();
-	}
-
 	 /**
 	  * Generate Image Name
 	  *
@@ -97,32 +92,5 @@ class Game extends Eloquent
 
 		return "{$alias}-{$title}.{$type}";
 
-	}
-
-	public function getAverageRatingAttribute()
-	{
-		// the total rating for this game
-		$total = $this->users->sum(function($user) {
-			return $user->pivot->rating;
-		});
-
-		// the number of ratings
-		$count = $this->users->count();
-
-		return round(($total / $count), 1);
-	}
-
-	/**
-	 * Get User Rating
-	 *
-	 * Provides the rating of this game by a specific user
-	 *
-	 * @param UserInterface $user
-	 *
-	 * @return int
-	 */
-	public function getUserRating(UserInterface $user)
-	{
-		return (int) $this->users->find($user->id)->pivot->rating;
 	}
 }

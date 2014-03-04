@@ -1,7 +1,10 @@
 
 body {
-	background-color: #2c3e50;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
+
+/* === Login Page === */
 
 #login {
 	width: 960px;
@@ -14,9 +17,55 @@ body {
 
 .login-screen .login-icon {
 	top: 145px;
-	color: #fff;
+	color: #fff;	
 	left: 175px;
 }
+
+@media screen and (max-width: 990px) {
+
+	#login {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+
+	.login-screen {
+		padding: 1em 2em;
+	}
+
+	.login-screen .login-icon {
+		position: static;
+		text-align: center;
+		width: 100%;	
+	}
+
+	.login-screen .login-icon img {
+		display: inline;
+		max-width: 100px;
+	}
+
+	.login-form:before {
+		border-color: #34495e;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	body.full {
+		background-color: #34495e;
+		padding: 0;
+	}
+
+	.container-fluid {
+		padding: 0;
+	}
+
+}
+
+/* === About Us Page === */
 
 .presenters {
 	background-color: #2C3E50;
@@ -37,11 +86,25 @@ body {
 	background-color: #34495E
 }
 
+/* === Game Page === */
 
-#sidebar {
-	background-color: #2c3e50;
+a.game-edit {
+	color: #e74c3c;
 }
 
-#content {
-	background-color: #34495e;
+a.game-edit:hover, a.game-edit:focus {
+	color: #c0392b;
+}
+
+.form-inline {
+	display: inline;
+}
+
+.form-horizontal .radio {
+	padding-top: 0;
+	margin-top: 12px;
+}
+
+.form-horizontal input[type="file"] {
+	margin-top: 10px;
 }

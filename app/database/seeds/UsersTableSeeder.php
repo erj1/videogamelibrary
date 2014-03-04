@@ -12,12 +12,7 @@ class UsersTableSeeder extends Seeder {
 		$users = [[
 			'id'         => '1',
 			'email'      => 'andy@example.com',
-			'username'   => 'AdminAndy',
 			'password'   => Hash::make('password'),
-			'first_name' => 'Andy',
-			'last_name'  => 'Admin',
-			'birthday'   => '1984-04-04',
-			'is_admin'   => 1,
 			'created_at' => Carbon::now(),
 			'updated_at' => Carbon::now(),
 		]];

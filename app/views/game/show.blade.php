@@ -3,7 +3,17 @@
 @section('content')
 
 <div class='page-header'>
-	<h1>{{{ $game->name }}}</h1>
+	<h1>
+		{{{ $game->name }}}
+
+		@if (Auth::check())
+		<small>
+			<a href="#" class="game-edit">
+				<span class="fui-new"></span>
+			</a>
+		</small>
+		@endif
+	</h1>
 </div>
 
 <div class='row'>
@@ -26,20 +36,8 @@
 					) }}</td>
 				</tr>
 				<tr colspan="row">
-					<th>Average User Rating</th>
-					<td>{{ $game->average_rating }}</td>
-				</tr>
-				<tr colspan="row">
-					<th>Your Rating</th>
-					<td>	
-						@if(Auth::check())
-						    {{ $game->getUserRating(Auth::user()) }}
-						@else
-						    <a href="{{ url('login') }}">Login</a>
-						    or
-						    <a href="{{ url('register') }}">Register</a>
-						@endif
-					</td>
+					<th>Rating</th>
+					<td>{{ $game->rating }}</td>
 				</tr>
 			</tbody>
 		</table>

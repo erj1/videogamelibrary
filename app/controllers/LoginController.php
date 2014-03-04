@@ -9,12 +9,11 @@ class LoginController extends BaseController
 
 	public function postIndex()
 	{
-		$input = Input::only('email', 'password', 'remember');
+		$input = Input::only('email', 'password');
 
 		$rules = [
 			'email'    => 'required|email',
-			'password' => 'required',
-			'remember' => 'integer'
+			'password' => 'required'
 		];
 
 		$validator = Validator::make($input, $rules);
@@ -26,12 +25,8 @@ class LoginController extends BaseController
 		if (Auth::attempt([
 			'email'    => Input::get('email'),
 			'password' => Input::get('password')
-		], Input::has('remember'))) {
-
-			if (Auth::user()->isAdmin()) {
-				return Redirect::intended('/admin/dashboard');
-			}
-
+		])) {
+			
 			return Redirect::intended('/');
 		}
 

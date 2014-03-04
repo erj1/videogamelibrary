@@ -54,11 +54,16 @@ Route::get('platform/{platformId}', 'PlatformController@show');
 Route::controller('login', 'LoginController');
 Route::get('logout', 'LoginController@getLogout');
 
-# Route::controller('register', 'RegisterController');
-
 Route::group(['before' => 'auth'], function() {
 
 	Route::get('account', 'UserController@edit');
 	Route::put('account', 'UserController@update');
+
+});
+
+Route::group(['before' => 'auth', 'prefix' => 'admin'], function() {
+
+	Route::resource('platform', 'AdminPlatformController');
+	Route::resource('game', 'AdminGameController');
 
 });

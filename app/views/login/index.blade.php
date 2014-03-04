@@ -20,6 +20,7 @@
 
 				@if (Session::has('error'))
 					<div class="alert alert-danger">
+						<strong>Error</strong>
 						<p>{{{ Session::get('error') }}}</p>
 					</div>
 				@endif
@@ -29,7 +30,8 @@
 					{{ Form::email('email', null, [
 						'id'          => 'login-email',
 						'class'       => 'form-control',
-						'placeholder' => 'Email'
+						'placeholder' => 'Email',
+						'required'
 					]) }}
 					<label class="login-field-icon fui-mail" for="login-email"></label>
 				</div>
@@ -40,7 +42,8 @@
 					{{ Form::password('password', [
 						'id'          => 'login-password',
 						'class'       => 'form-control',
-						'placeholder' => 'Password'
+						'placeholder' => 'Password',
+						'required'
 					]) }}
 					<label class="login-field-icon fui-lock" for="login-password"></label>
 				</div>

@@ -9,3 +9,4 @@ Thumbs.db
 
 app/config/local
 *.sublime-project
+*.sublime*

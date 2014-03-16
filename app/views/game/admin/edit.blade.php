@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="page-header">
-	<h1>Create A New Game</h1>
+	<h1>Edit A Game</h1>
 </div>
 
 {{ Form::open([
@@ -102,7 +102,7 @@
 	{{-- Form Actions --}}
 	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-10">
-			{{ Form::submit('Create Game', ['class' => 'btn btn-inverse']) }}
+			{{ Form::submit('Update Game', ['class' => 'btn btn-inverse']) }}
 		</div>
 	</div>
 

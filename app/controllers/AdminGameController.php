@@ -123,7 +123,52 @@ class AdminGameController extends BaseController
 	 */
 	public function update($id)
 	{
-		//
+		$rules = [
+			'platform' => 'required|integer|exists:platforms,id',
+			'esrb'     => 'required|integer|exists:esrbs,id',
+			'name'     => 'required|max:255',
+			'rating'   => 'required|integer|in:1,2,3,4,5', # update to be more dynamic
+			'image'    => 'image|max:50'
+		];
+
+		$validator = Validator::make(Input::all(), $rules);
+
+		if ($validator->fails()) {
+			return Redirect::back()->withErrors($validator)->withInput();
+		}
+
+		// Find the game to be updated
+		$game = Game::findOrFail($id);
+
+		// update the platform
+		$platform = Platform::find(Input::get('platform'));
+
+		$game->platform()->associate($platform);
+
+		$game->esrb_id = Input::get('esrb');
+		$game->name    = Input::get('name');
+		$game->rating  = Input::get('rating');
+
+		if (Input::hasFile('image')) {
+			
+			$file = Input::file('image');
+
+			$imageName = Game::generateImageName(
+				$platform->alias,
+				Input::get('name'),
+				$file->guessExtension()
+			);
+
+			$file->move(public_path() . Game::$path, $imageName);
+
+			$game->image = $imageName;
+		}
+
+		$game->save();
+
+		Session::flash('success', 'Updated Video Game');
+		
+		return Redirect::action('AdminGameController@index');
 	}
 
 	/**
@@ -134,7 +179,16 @@ class AdminGameController extends BaseController
 	 */
 	public function destroy($id)
 	{
-		//
+		// pull the game record
+		$game = Game::findOrFail($id);
+
+		// delete the game image
+		unlink(public_path().$game->getImageUrlAttribute());
+
+		// delete the game record
+		$game->delete();
+
+		return Redirect::action('AdminGameController@index');
 	}
 
 }

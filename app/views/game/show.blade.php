@@ -8,7 +8,10 @@
 
 		@if (Auth::check())
 		<small>
-			<a href="#" class="game-edit">
+			<a href="{{ action(
+				'AdminGameController@edit',
+				['game' => $game->id]
+			) }}" title="Edit Game">
 				<span class="fui-new"></span>
 			</a>
 		</small>

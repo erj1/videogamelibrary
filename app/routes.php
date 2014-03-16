@@ -26,7 +26,7 @@
 View::composer('template.guest.base', function($view) {
 	$view->with(
 		'navPlatforms',
-		Platform::orderBy('name', 'asc')->remember(10)->get()->lists('name', 'id')
+		Platform::orderBy('name', 'asc')->remember(10, 'navPlatforms')->get()->lists('name', 'id')
 	);
 });
 
